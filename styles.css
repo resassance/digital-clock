@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+html,
+body {
+    background-color: #393e46;
+    animation-name: backs; 
+    animation-duration: 4s; 
+    animation-iteration-count:infinite;
+}
+
+@keyframes backs{
+    0% {background-color: #57385c}
+    10% {background-color: #a75265}
+    50% {background-color: #ec7263}
+    80% {background-color: #febe7e}
+}
+
+#clockDisplay{
+    position: absolute;
+    width: 400px;
+    background-color: #1E1E1E;
+    border: 5px solid #ededee;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    height: 100px;
+    color: #f96d00;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:60px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
